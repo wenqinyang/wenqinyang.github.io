@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>简介 | 笔记</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="/cute.ico">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.9ff2e250.css" as="style"><link rel="preload" href="/assets/js/app.89e812d7.js" as="script"><link rel="preload" href="/assets/js/3.44254d01.js" as="script"><link rel="preload" href="/assets/js/10.65f075ff.js" as="script"><link rel="prefetch" href="/assets/js/1.723aa4b1.js"><link rel="prefetch" href="/assets/js/11.73c272ed.js"><link rel="prefetch" href="/assets/js/12.a0dde58b.js"><link rel="prefetch" href="/assets/js/13.377619ff.js"><link rel="prefetch" href="/assets/js/14.ddf6446b.js"><link rel="prefetch" href="/assets/js/15.90bd210a.js"><link rel="prefetch" href="/assets/js/16.9c85dac7.js"><link rel="prefetch" href="/assets/js/17.ed61de34.js"><link rel="prefetch" href="/assets/js/18.4fced4c3.js"><link rel="prefetch" href="/assets/js/19.a177c053.js"><link rel="prefetch" href="/assets/js/20.aaaa9f71.js"><link rel="prefetch" href="/assets/js/21.9acb7f76.js"><link rel="prefetch" href="/assets/js/22.7e99e164.js"><link rel="prefetch" href="/assets/js/23.43a5a948.js"><link rel="prefetch" href="/assets/js/4.5cad1c44.js"><link rel="prefetch" href="/assets/js/5.0c90a07c.js"><link rel="prefetch" href="/assets/js/6.5bb89887.js"><link rel="prefetch" href="/assets/js/7.50b2a9c2.js"><link rel="prefetch" href="/assets/js/8.252985b6.js"><link rel="prefetch" href="/assets/js/9.3106f9bd.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.9ff2e250.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/cute.png" alt="笔记" class="logo"> <span class="site-name can-hide">笔记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/pages/navigation/navigation.html" class="nav-link">
+  导航
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">分类</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">分类</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/java/java.html" class="nav-link">
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/pages/mysql/mysql.html" class="nav-link">
+  Mysql
+</a></li><li class="dropdown-item"><!----> <a href="/pages/redis/redis.html" class="nav-link">
+  Reids
+</a></li><li class="dropdown-item"><!----> <a href="/pages/k8s/k8s.html" class="nav-link">
+  K8s
+</a></li><li class="dropdown-item"><!----> <a href="/pages/dockerCompose/dockerCompose.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  DockerCompose
+</a></li><li class="dropdown-item"><!----> <a href="/pages/springboot/springboot.html" class="nav-link">
+  SpringBoot
+</a></li><li class="dropdown-item"><!----> <a href="/pages/springCloud/springCloud.html" class="nav-link">
+  SpringCloud
+</a></li><li class="dropdown-item"><!----> <a href="/pages/elasticSearch/elasticSearch.html" class="nav-link">
+  ElasitcSearch
+</a></li><li class="dropdown-item"><!----> <a href="/pages/kafka/kafka.html" class="nav-link">
+  Kafka
+</a></li><li class="dropdown-item"><!----> <a href="/pages/rocketMQ/rocketMQ.html" class="nav-link">
+  RocketMQ
+</a></li><li class="dropdown-item"><!----> <a href="/pages/rabbitMQ/rabbitMQ.html" class="nav-link">
+  RabbitMQ
+</a></li><li class="dropdown-item"><!----> <a href="/pages/prometheus/prometheus.html" class="nav-link">
+  Prometheus
+</a></li></ul></div></div><div class="nav-item"><a href="/pages/officialDocs/officialDocs.html" class="nav-link">
+  官方文档
+</a></div><div class="nav-item"><a href="https://github.com/wenqinyang/wenqinyang.github.io" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/pages/navigation/navigation.html" class="nav-link">
+  导航
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">分类</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">分类</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/java/java.html" class="nav-link">
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/pages/mysql/mysql.html" class="nav-link">
+  Mysql
+</a></li><li class="dropdown-item"><!----> <a href="/pages/redis/redis.html" class="nav-link">
+  Reids
+</a></li><li class="dropdown-item"><!----> <a href="/pages/k8s/k8s.html" class="nav-link">
+  K8s
+</a></li><li class="dropdown-item"><!----> <a href="/pages/dockerCompose/dockerCompose.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  DockerCompose
+</a></li><li class="dropdown-item"><!----> <a href="/pages/springboot/springboot.html" class="nav-link">
+  SpringBoot
+</a></li><li class="dropdown-item"><!----> <a href="/pages/springCloud/springCloud.html" class="nav-link">
+  SpringCloud
+</a></li><li class="dropdown-item"><!----> <a href="/pages/elasticSearch/elasticSearch.html" class="nav-link">
+  ElasitcSearch
+</a></li><li class="dropdown-item"><!----> <a href="/pages/kafka/kafka.html" class="nav-link">
+  Kafka
+</a></li><li class="dropdown-item"><!----> <a href="/pages/rocketMQ/rocketMQ.html" class="nav-link">
+  RocketMQ
+</a></li><li class="dropdown-item"><!----> <a href="/pages/rabbitMQ/rabbitMQ.html" class="nav-link">
+  RabbitMQ
+</a></li><li class="dropdown-item"><!----> <a href="/pages/prometheus/prometheus.html" class="nav-link">
+  Prometheus
+</a></li></ul></div></div><div class="nav-item"><a href="/pages/officialDocs/officialDocs.html" class="nav-link">
+  官方文档
+</a></div><div class="nav-item"><a href="https://github.com/wenqinyang/wenqinyang.github.io" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>DockerCompose</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/dockerCompose/dockerCompose.html" aria-current="page" class="active sidebar-link">简介</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#常用docker-compose" class="sidebar-link">常用Docker Compose</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#一键启动-mac" class="sidebar-link">一键启动(Mac)</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#一键启动-win" class="sidebar-link">一键启动(Win)</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#基础环境" class="sidebar-link">基础环境</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#mysql-arm" class="sidebar-link">Mysql(arm)</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#mysql" class="sidebar-link">Mysql</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#redis" class="sidebar-link">Redis</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#rabbitmq" class="sidebar-link">rabbitMq</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#消息中间件" class="sidebar-link">消息中间件</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#注册中心中间件" class="sidebar-link">注册中心中间件</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#zookeeper" class="sidebar-link">Zookeeper</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#搜索引擎中间件" class="sidebar-link">搜索引擎中间件</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#prometheus" class="sidebar-link">Prometheus</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#vue开发环境" class="sidebar-link">Vue开发环境</a></li></ul></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#集群" class="sidebar-link">集群</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#elasticsearch" class="sidebar-link">ElasticSearch</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#mysql-arm-2" class="sidebar-link">Mysql(arm)</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#mysql-2" class="sidebar-link">Mysql</a></li><li class="sidebar-sub-header"><a href="/pages/dockerCompose/dockerCompose.html#zookeeper-2" class="sidebar-link">Zookeeper</a></li></ul></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="简介"><a href="#简介" class="header-anchor">#</a> 简介</h1> <p>Docker Compose使用YAML文件定义应用程序的多个服务以及它们之间的依赖关系，随后可以使用docker-compose命令来启动、停止、重启、删除、构建和查看应用程序中的各个容器。使用Docker Compose，开发人员可以快速搭建测试环境，用于测试和验证应用程序的各个模块；也可以将应用程序部署到生产环境，保证在不同服务器之间的一致性和可移植性。</p> <h2 id="常用docker-compose"><a href="#常用docker-compose" class="header-anchor">#</a> 常用Docker Compose</h2> <p>下面会给出开发中常用的docker-compose文件，以下文件均已经实际运行使用，可以一键运行。其中包含Win和Mac环境均提供脚本文件一键启动，使用脚本的时候注意路径的修改。包含：mysql、redis、rabbitMQ、elasticSearch、kafka等等。</p> <h3 id="一键启动-mac"><a href="#一键启动-mac" class="header-anchor">#</a> 一键启动(Mac)</h3> <ul><li>注意如果不是arm架构，有些镜像是需要更换的如：mysql，可以自己去docker hub中查找或者自己封装镜像使用。</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token shebang important">#!/bin/bash</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;---------------docker container group function----------------------&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;1. 加载基础容器组(mysql、redis、rabbitMq)&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;2. 加载kafka容器组(zoolKeeper、kafka、kafkaManager)&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;3. 加载ek容器组(elasticSearch、kibana)&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;4. 加载vue3开发环境容器组(vue，进入docker容器中使用 run serve 启动vue项目)&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;5. 关闭基础容器组(mysql、redis、rabbitMq)&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;6. 关闭kafka容器组(zoolKeeper、kafka、kafkaManager)&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;7. 关闭ek容器组(elasticSearch、kibana)&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;8. 关闭vue3开发环境容器组&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;9. 关闭所有容器组&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;0. 退出&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token parameter variable">-n</span> <span class="token string">&quot;输入所要操作的容器组：&quot;</span>
+<span class="token builtin class-name">read</span> optional
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token variable">$optional</span> <span class="token operator">==</span> <span class="token number">0</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span> <span class="token builtin class-name">exit</span>
+<span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token variable">$optional</span> <span class="token operator">==</span> <span class="token number">1</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+	<span class="token builtin class-name">cd</span> ~/DockerCompose
+	<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> docker-compose.a.yml up <span class="token parameter variable">-d</span>
+<span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token variable">$optional</span> <span class="token operator">==</span> <span class="token number">2</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+        <span class="token builtin class-name">cd</span> ~/DockerCompose
+	<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> docker-compose.byml up <span class="token parameter variable">-d</span>
+<span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token variable">$optional</span> <span class="token operator">==</span> <span class="token number">3</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+        <span class="token builtin class-name">cd</span> ~/DockerCompose
+	<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> docker-compose.c.yml up <span class="token parameter variable">-d</span>
+<span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token variable">$optional</span> <span class="token operator">==</span> <span class="token number">4</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+        <span class="token builtin class-name">cd</span> ~/DockerCompose
+	<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> docker-compose.d.yml up <span class="token parameter variable">-d</span>
+<span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token variable">$optional</span> <span class="token operator">==</span> <span class="token number">5</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+        <span class="token builtin class-name">cd</span> ~/DockerCompose
+	<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> docker-compose.a.yml down    
+<span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token variable">$optional</span> <span class="token operator">==</span> <span class="token number">6</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+        <span class="token builtin class-name">cd</span> ~/DockerCompose
+	<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> docker-compose.b.yml down
+<span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token variable">$optional</span> <span class="token operator">==</span> <span class="token number">7</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+        <span class="token builtin class-name">cd</span> ~/DockerCompose
+	<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> docker-compose.c.yml down
+    
+<span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token variable">$optional</span> <span class="token operator">==</span> <span class="token number">8</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+        <span class="token builtin class-name">cd</span> ~/DockerCompose
+	<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> docker-compose.d.yml down    
+
+<span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token variable">$optional</span> <span class="token operator">==</span> <span class="token number">9</span> <span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+        <span class="token builtin class-name">cd</span> ~/DockerCompose
+	<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> docker-compose.a.yml <span class="token parameter variable">-f</span> docker-compose.b.yml <span class="token parameter variable">-f</span> docker-compose.c.yml <span class="token parameter variable">-f</span> docker-compose.d.yml down
+<span class="token keyword">else</span>
+	<span class="token builtin class-name">echo</span> <span class="token string">&quot;错误输入！！！&quot;</span>
+<span class="token keyword">fi</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;---------------docker function sh executed----------------------&quot;</span>
+</code></pre></div><h3 id="一键启动-win"><a href="#一键启动-win" class="header-anchor">#</a> 一键启动(Win)</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token builtin class-name">echo</span> off
+<span class="token builtin class-name">echo</span> ---------------docker container group function------------------
+<span class="token builtin class-name">echo</span> <span class="token number">1</span>. 加载基础容器组<span class="token punctuation">(</span>mysql、redis、rabbitMq<span class="token punctuation">)</span>
+<span class="token builtin class-name">echo</span> <span class="token number">2</span>. 加载kafka容器组<span class="token punctuation">(</span>zooKeeper、kafka、kafkaManager<span class="token punctuation">)</span>
+<span class="token builtin class-name">echo</span> <span class="token number">3</span>. 加载ek容器组<span class="token punctuation">(</span>elasticSearch、kibana<span class="token punctuation">)</span>
+<span class="token builtin class-name">echo</span> <span class="token number">4</span>. 关闭基础容器组<span class="token punctuation">(</span>mysql、redis、rabbitMq<span class="token punctuation">)</span>
+<span class="token builtin class-name">echo</span> <span class="token number">5</span>. 关闭kafka容器组<span class="token punctuation">(</span>zoolKeeper、kafka、kafkaManager<span class="token punctuation">)</span>
+<span class="token builtin class-name">echo</span> <span class="token number">6</span>. 关闭ek容器组<span class="token punctuation">(</span>elasticSearch、kibana<span class="token punctuation">)</span>
+<span class="token builtin class-name">echo</span> <span class="token number">7</span>. 关闭所有容器组
+<span class="token builtin class-name">echo</span> <span class="token number">8</span>. 加载Vue开发环境
+<span class="token builtin class-name">echo</span> <span class="token number">9</span>. 关闭Vue开发环境
+<span class="token builtin class-name">echo</span> c. 加载单机zooKeeper
+<span class="token builtin class-name">echo</span> d. 关闭单机zooKeeper
+<span class="token builtin class-name">echo</span> e. 加载集群zooKeeper
+<span class="token builtin class-name">echo</span> f. 关闭集群zooKeeper
+<span class="token builtin class-name">echo</span> <span class="token number">0</span>. 退出
+<span class="token builtin class-name">echo</span> 输入所要操作的容器组：
+<span class="token builtin class-name">set</span> /p <span class="token assign-left variable">num</span><span class="token operator">=</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;0&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">exit</span> 
+<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;1&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">cd</span> /d D:<span class="token punctuation">\</span>Docker<span class="token punctuation">\</span>DockerCompose
+<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.a.yml up <span class="token parameter variable">-d</span>
+<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;2&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">cd</span> /d D:<span class="token punctuation">\</span>Docker<span class="token punctuation">\</span>DockerCompose
+<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.b.yml up <span class="token parameter variable">-d</span>
+<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;3&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">cd</span> /d D:<span class="token punctuation">\</span>Docker<span class="token punctuation">\</span>DockerCompose
+<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.c.yml up <span class="token parameter variable">-d</span>
+<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;4&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">cd</span> /d D:<span class="token punctuation">\</span>Docker<span class="token punctuation">\</span>DockerCompose
+<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.a.yml down
+<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;5&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">cd</span> /d D:<span class="token punctuation">\</span>Docker<span class="token punctuation">\</span>DockerCompose
+<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.b.yml down
+<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;6&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">cd</span> /d D:<span class="token punctuation">\</span>Docker<span class="token punctuation">\</span>DockerCompose
+<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.c.yml down
+<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;7&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">cd</span> /d D:<span class="token punctuation">\</span>Docker<span class="token punctuation">\</span>DockerCompose
+<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.a.yml <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.b.yml <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.c.yml <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.d.yml <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.e.yml down
+<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;8&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">cd</span> /d D:<span class="token punctuation">\</span>Docker<span class="token punctuation">\</span>DockerCompose
+<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.d.yml up <span class="token parameter variable">-d</span>
+<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;9&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">cd</span> /d D:<span class="token punctuation">\</span>Docker<span class="token punctuation">\</span>DockerCompose
+<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.d.yml down
+<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;c&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">cd</span> /d D:<span class="token punctuation">\</span>Docker<span class="token punctuation">\</span>DockerCompose
+<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.f.yml up <span class="token parameter variable">-d</span>
+<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;d&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">cd</span> /d D:<span class="token punctuation">\</span>Docker<span class="token punctuation">\</span>DockerCompose
+<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.f.yml down
+<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;e&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">cd</span> /d D:<span class="token punctuation">\</span>Docker<span class="token punctuation">\</span>DockerCompose
+<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.g.yml up <span class="token parameter variable">-d</span>
+<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token string">&quot;%num%&quot;</span><span class="token operator">==</span><span class="token string">&quot;f&quot;</span> <span class="token punctuation">(</span>
+<span class="token builtin class-name">cd</span> /d D:<span class="token punctuation">\</span>Docker<span class="token punctuation">\</span>DockerCompose
+<span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> .<span class="token punctuation">\</span>docker-compose.g.yml down
+<span class="token punctuation">)</span>
+<span class="token builtin class-name">echo</span> ---------------docker <span class="token keyword">function</span> bat executed------------------
+</code></pre></div><h3 id="基础环境"><a href="#基础环境" class="header-anchor">#</a> 基础环境</h3> <p>Mysql(arm) + Redis + rabbitMQ(文件命名为：docker-compose.a.yml)</p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">&quot;3.5&quot;</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+    <span class="token key atrule">commonA</span><span class="token punctuation">:</span>
+        <span class="token key atrule">driver</span><span class="token punctuation">:</span> bridge
+        <span class="token key atrule">ipam</span><span class="token punctuation">:</span>
+            <span class="token key atrule">driver</span><span class="token punctuation">:</span> default
+            <span class="token key atrule">config</span><span class="token punctuation">:</span>
+                <span class="token punctuation">-</span> <span class="token key atrule">subnet</span><span class="token punctuation">:</span> 172.101.101.0/24
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+    <span class="token key atrule">redis</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> redis<span class="token punctuation">:</span><span class="token number">6.0</span>
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_redis
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>      
+            <span class="token punctuation">-</span> 6379<span class="token punctuation">:</span><span class="token number">6379</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./redis/data:/data&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">commonA</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.101
+    <span class="token key atrule">mysql</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> mysql<span class="token punctuation">:</span>oracle
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_mysql
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>      
+            <span class="token punctuation">-</span> 3306<span class="token punctuation">:</span><span class="token number">3306</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./mysql/data:/var/lib/mysql&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">commonA</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.102
+        <span class="token key atrule">command</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span><span class="token punctuation">-</span>default<span class="token punctuation">-</span>authentication<span class="token punctuation">-</span>plugin=mysql_native_password
+        <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> MYSQL_ROOT_PASSWORD=123456
+            <span class="token comment">#- MYSQL_DATABASE=wenqin_locale</span>
+        <span class="token comment">#platform: arm64</span>
+
+    <span class="token key atrule">rabbitmq</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> rabbitmq<span class="token punctuation">:</span>3.8<span class="token punctuation">-</span>management
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_rabbitmq
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> 5672<span class="token punctuation">:</span><span class="token number">5672</span>
+            <span class="token punctuation">-</span> 15672<span class="token punctuation">:</span><span class="token number">15672</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./rabbitmq/data:/data&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">commonA</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.103
+        <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> RABBITMQ_DEFAULT_VHOST=yang
+            <span class="token punctuation">-</span> RABBITMQ_DEFAULT_USER=admin
+            <span class="token punctuation">-</span> RABBITMQ_DEFAULT_PASS=123456
+</code></pre></div><h3 id="mysql-arm"><a href="#mysql-arm" class="header-anchor">#</a> Mysql(arm)</h3> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">&quot;3.5&quot;</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+    <span class="token key atrule">commonA</span><span class="token punctuation">:</span>
+        <span class="token key atrule">driver</span><span class="token punctuation">:</span> bridge
+        <span class="token key atrule">ipam</span><span class="token punctuation">:</span>
+            <span class="token key atrule">driver</span><span class="token punctuation">:</span> default
+            <span class="token key atrule">config</span><span class="token punctuation">:</span>
+                <span class="token punctuation">-</span> <span class="token key atrule">subnet</span><span class="token punctuation">:</span> 172.101.101.0/24
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+    <span class="token key atrule">mysql</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> mysql<span class="token punctuation">:</span>oracle
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_mysql
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>      
+            <span class="token punctuation">-</span> 3306<span class="token punctuation">:</span><span class="token number">3306</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./mysql/data:/var/lib/mysql&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">commonA</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.102
+        <span class="token key atrule">command</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span><span class="token punctuation">-</span>default<span class="token punctuation">-</span>authentication<span class="token punctuation">-</span>plugin=mysql_native_password
+        <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> MYSQL_ROOT_PASSWORD=123456
+            <span class="token comment">#- MYSQL_DATABASE=wenqin_locale</span>
+        <span class="token comment">#platform: arm64</span>
+</code></pre></div><h3 id="mysql"><a href="#mysql" class="header-anchor">#</a> Mysql</h3> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">&quot;3.5&quot;</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+  <span class="token key atrule">common</span><span class="token punctuation">:</span>
+    <span class="token key atrule">driver</span><span class="token punctuation">:</span> bridge
+    <span class="token key atrule">ipam</span><span class="token punctuation">:</span>
+      <span class="token key atrule">driver</span><span class="token punctuation">:</span> default
+      <span class="token key atrule">config</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">subnet</span><span class="token punctuation">:</span> 172.101.101.0/24
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+    <span class="token key atrule">mysql</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> mysql<span class="token punctuation">:</span><span class="token number">8.0</span>
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_mysql
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>      
+            <span class="token punctuation">-</span> 3306<span class="token punctuation">:</span><span class="token number">3306</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./mysql/data:/var/lib/mysql&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">common</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.102
+        <span class="token key atrule">command</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span><span class="token punctuation">-</span>default<span class="token punctuation">-</span>authentication<span class="token punctuation">-</span>plugin=mysql_native_password
+        <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> MYSQL_ROOT_PASSWORD=123456
+            <span class="token comment">#- MYSQL_DATABASE=wenqin_locale</span>
+</code></pre></div><h3 id="redis"><a href="#redis" class="header-anchor">#</a> Redis</h3> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">&quot;3.5&quot;</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+    <span class="token key atrule">commonA</span><span class="token punctuation">:</span>
+        <span class="token key atrule">driver</span><span class="token punctuation">:</span> bridge
+        <span class="token key atrule">ipam</span><span class="token punctuation">:</span>
+            <span class="token key atrule">driver</span><span class="token punctuation">:</span> default
+            <span class="token key atrule">config</span><span class="token punctuation">:</span>
+                <span class="token punctuation">-</span> <span class="token key atrule">subnet</span><span class="token punctuation">:</span> 172.101.101.0/24
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+    <span class="token key atrule">redis</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> redis<span class="token punctuation">:</span><span class="token number">6.0</span>
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_redis
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>      
+            <span class="token punctuation">-</span> 6379<span class="token punctuation">:</span><span class="token number">6379</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./redis/data:/data&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">commonA</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.101
+</code></pre></div><h3 id="rabbitmq"><a href="#rabbitmq" class="header-anchor">#</a> rabbitMq</h3> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">&quot;3.5&quot;</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+    <span class="token key atrule">commonA</span><span class="token punctuation">:</span>
+        <span class="token key atrule">driver</span><span class="token punctuation">:</span> bridge
+        <span class="token key atrule">ipam</span><span class="token punctuation">:</span>
+            <span class="token key atrule">driver</span><span class="token punctuation">:</span> default
+            <span class="token key atrule">config</span><span class="token punctuation">:</span>
+                <span class="token punctuation">-</span> <span class="token key atrule">subnet</span><span class="token punctuation">:</span> 172.101.101.0/24
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+    <span class="token key atrule">rabbitmq</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> rabbitmq<span class="token punctuation">:</span>3.8<span class="token punctuation">-</span>management
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_rabbitmq
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> 5672<span class="token punctuation">:</span><span class="token number">5672</span>
+            <span class="token punctuation">-</span> 15672<span class="token punctuation">:</span><span class="token number">15672</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./rabbitmq/data:/data&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">commonA</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.103
+        <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> RABBITMQ_DEFAULT_VHOST=yang
+            <span class="token punctuation">-</span> RABBITMQ_DEFAULT_USER=admin
+            <span class="token punctuation">-</span> RABBITMQ_DEFAULT_PASS=123456
+</code></pre></div><h3 id="消息中间件"><a href="#消息中间件" class="header-anchor">#</a> 消息中间件</h3> <p>Zookeeper + Kafka + KafkaManager(文件命名为：docker-compose.b.yml)</p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">&quot;3.5&quot;</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+    <span class="token key atrule">commonB</span><span class="token punctuation">:</span>
+        <span class="token key atrule">driver</span><span class="token punctuation">:</span> bridge
+        <span class="token key atrule">ipam</span><span class="token punctuation">:</span>
+            <span class="token key atrule">driver</span><span class="token punctuation">:</span> default
+            <span class="token key atrule">config</span><span class="token punctuation">:</span>
+                <span class="token punctuation">-</span> <span class="token key atrule">subnet</span><span class="token punctuation">:</span> 172.101.102.0/24
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+    <span class="token key atrule">zookeeper</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> wurstmeister/zookeeper
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_zookeeper
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> 2181<span class="token punctuation">:</span><span class="token number">2181</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./zookeeper/data:/data&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">commonB</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.102.106
+
+    <span class="token key atrule">kafka</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> wurstmeister/kafka
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_kafka
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span> 
+            <span class="token punctuation">-</span> 9092<span class="token punctuation">:</span><span class="token number">9092</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./kafka/data:/data&quot;</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;/var/run/docker.sock:/var/run/docker.sock&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">commonB</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.102.107
+        <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> ALLOW_PLAINTEXT_LISTENER=yes
+            <span class="token punctuation">-</span> KAFKA_ADVERTISED_HOST_NAME=localhost
+            <span class="token punctuation">-</span> KAFKA_MESSAGE_MAX_BYTES=2000000
+            <span class="token punctuation">-</span> KAFKA_CREATE_TOPICS=LocalCoreHrKafka<span class="token punctuation">:</span>1<span class="token punctuation">:</span><span class="token number">1</span>
+            <span class="token punctuation">-</span> KAFKA_BROKER_ID=1
+            <span class="token punctuation">-</span> KAFKA_LISTENERS=PLAINTEXT<span class="token punctuation">:</span>//127.0.0.1<span class="token punctuation">:</span><span class="token number">9092</span>
+            <span class="token punctuation">-</span> KAFKA_ADVERTISED_LISTENERS=PLAINTEXT<span class="token punctuation">:</span>//127.0.0.1<span class="token punctuation">:</span><span class="token number">9092</span>
+            <span class="token punctuation">-</span> KAFKA_ZOOKEEPER_CONNECT=zookeeper<span class="token punctuation">:</span><span class="token number">2181</span>
+        <span class="token key atrule">depends_on</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> zookeeper
+            
+    <span class="token key atrule">kafka-manager</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> kafkamanager/kafka<span class="token punctuation">-</span>manager
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_kafkaManager
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span> 
+            <span class="token punctuation">-</span> 9000<span class="token punctuation">:</span><span class="token number">9000</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./kafkaManager/data:/data&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">commonB</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.102.108
+        <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> ZK_HOSTS=zookeeper
+</code></pre></div><h3 id="注册中心中间件"><a href="#注册中心中间件" class="header-anchor">#</a> 注册中心中间件</h3> <h3 id="zookeeper"><a href="#zookeeper" class="header-anchor">#</a> Zookeeper</h3> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">'3'</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+  <span class="token key atrule">common</span><span class="token punctuation">:</span>
+    <span class="token key atrule">driver</span><span class="token punctuation">:</span> bridge
+    <span class="token key atrule">ipam</span><span class="token punctuation">:</span>
+      <span class="token key atrule">driver</span><span class="token punctuation">:</span> default
+      <span class="token key atrule">config</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">subnet</span><span class="token punctuation">:</span> 172.101.101.0/24
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+  <span class="token key atrule">zoo1</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> <span class="token string">'zookeeper:3.6.3'</span>
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_zookeeper
+    <span class="token key atrule">hostname</span><span class="token punctuation">:</span> zoo1
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;./zookeeperSingle/data:/data&quot;</span>
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token key atrule">ZOO_MY_ID</span><span class="token punctuation">:</span> <span class="token number">1</span>
+      <span class="token key atrule">ZOO_SERVERS</span><span class="token punctuation">:</span> server.1=0.0.0.0<span class="token punctuation">:</span>2888<span class="token punctuation">:</span>3888;2181
+      <span class="token key atrule">ALLOW_ANONYMOUS_LOGIN</span><span class="token punctuation">:</span> <span class="token string">&quot;yes&quot;</span>
+    <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+      <span class="token key atrule">common</span><span class="token punctuation">:</span>
+        <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.114
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> 2181<span class="token punctuation">:</span><span class="token number">2181</span>
+      <span class="token punctuation">-</span> 8081<span class="token punctuation">:</span><span class="token number">8080</span>
+</code></pre></div><h3 id="搜索引擎中间件"><a href="#搜索引擎中间件" class="header-anchor">#</a> 搜索引擎中间件</h3> <p>ElasticSearch + kibana(文件命名为：docker-compose.c.yml)</p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">&quot;3.5&quot;</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+    <span class="token key atrule">commonC</span><span class="token punctuation">:</span>
+        <span class="token key atrule">driver</span><span class="token punctuation">:</span> bridge
+        <span class="token key atrule">ipam</span><span class="token punctuation">:</span>
+            <span class="token key atrule">driver</span><span class="token punctuation">:</span> default
+            <span class="token key atrule">config</span><span class="token punctuation">:</span>
+                <span class="token punctuation">-</span> <span class="token key atrule">subnet</span><span class="token punctuation">:</span> 172.101.103.0/24
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+    
+    <span class="token key atrule">elasticsearch</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> elasticsearch<span class="token punctuation">:</span>7.14.1
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_elasticsearch
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+           <span class="token punctuation">-</span> 9200<span class="token punctuation">:</span><span class="token number">9200</span>
+           <span class="token punctuation">-</span> 9300<span class="token punctuation">:</span><span class="token number">9300</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./elasticsearch/plugins:/usr/share/elasticsearch/plugins&quot;</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./elasticsearch/data:/usr/share/elasticsearch/data&quot;</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./elasticsearch/logs:/usr/share/elasticsearch/logs&quot;</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./elasticsearch/config/elasticsearch.yml:/usr/share/config/elasticsearch.yml&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">commonC</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.103.104
+        <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> discovery.type=single<span class="token punctuation">-</span>node
+            <span class="token comment"># 开启内存锁定</span>
+            <span class="token punctuation">-</span> bootstrap.memory_lock=true
+            <span class="token punctuation">-</span> ES_JAVA_OPTS=<span class="token punctuation">-</span>Xms256m <span class="token punctuation">-</span>Xmx512m
+        <span class="token key atrule">ulimits</span><span class="token punctuation">:</span>
+            <span class="token comment"># 取消内存相关限制  用于开启内存锁定</span>
+            <span class="token key atrule">memlock</span><span class="token punctuation">:</span>
+                <span class="token key atrule">soft</span><span class="token punctuation">:</span> <span class="token number">-1</span>
+                <span class="token key atrule">hard</span><span class="token punctuation">:</span> <span class="token number">-1</span>
+    <span class="token key atrule">kibana</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> kibana<span class="token punctuation">:</span>7.14.1
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_kibana
+        <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+           <span class="token key atrule">ELASTICSEARCH_HOSTS</span><span class="token punctuation">:</span> http<span class="token punctuation">:</span>//local_elasticsearch<span class="token punctuation">:</span><span class="token number">9200</span>
+           <span class="token key atrule">I18N_LOCALE</span><span class="token punctuation">:</span> zh<span class="token punctuation">-</span>CN
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+           <span class="token punctuation">-</span> 5601<span class="token punctuation">:</span><span class="token number">5601</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+           <span class="token punctuation">-</span> <span class="token string">&quot;./kibana/data:/data&quot;</span>
+           <span class="token punctuation">-</span> <span class="token string">&quot;./kibana/config:/config&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">commonC</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.103.105
+</code></pre></div><h3 id="prometheus"><a href="#prometheus" class="header-anchor">#</a> Prometheus</h3> <p>注意：grafana中的数据并没有进行持久化，如果需要持久化就需要配置mysql</p> <h4 id="文件结构"><a href="#文件结构" class="header-anchor">#</a> 文件结构</h4> <p>PS：请务必保持该文件，这样才能一键启动</p> <div class="language- extra-class"><pre class="language-text"><code>└─ prometheus
+ └─ prometheus
+ |  ├─ prometheus.yml
+ ├─ docker-compose-prometheus.yml
+ ├─ run_pormetheus.sh
+</code></pre></div><h4 id="prometheus-yml"><a href="#prometheus-yml" class="header-anchor">#</a> prometheus.yml</h4> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token comment"># 可参考 https://prometheus.io/docs/prometheus/latest/getting_started</span>
+<span class="token key atrule">global</span><span class="token punctuation">:</span>
+  <span class="token key atrule">scrape_interval</span><span class="token punctuation">:</span> 10s
+  <span class="token key atrule">scrape_timeout</span><span class="token punctuation">:</span> 10s
+  <span class="token key atrule">evaluation_interval</span><span class="token punctuation">:</span> 10m
+<span class="token key atrule">scrape_configs</span><span class="token punctuation">:</span>
+  <span class="token comment"># springboot项目</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">job_name</span><span class="token punctuation">:</span> spring<span class="token punctuation">-</span>boot
+    <span class="token key atrule">scrape_interval</span><span class="token punctuation">:</span> 5s
+    <span class="token key atrule">scrape_timeout</span><span class="token punctuation">:</span> 5s
+    <span class="token key atrule">metrics_path</span><span class="token punctuation">:</span> /actuator/prometheus
+    <span class="token key atrule">scheme</span><span class="token punctuation">:</span> http
+    <span class="token key atrule">basic_auth</span><span class="token punctuation">:</span>
+      <span class="token key atrule">username</span><span class="token punctuation">:</span> admin
+      <span class="token key atrule">password</span><span class="token punctuation">:</span> <span class="token number">123456</span>
+    <span class="token key atrule">static_configs</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">targets</span><span class="token punctuation">:</span>
+          <span class="token punctuation">-</span> 192.168.101.88<span class="token punctuation">:</span><span class="token number">9200</span> <span class="token comment"># TODO 此处填写SpringBoot应用的IP+端口号</span>
+
+  <span class="token comment"># prometheus</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">job_name</span><span class="token punctuation">:</span> prometheus
+    <span class="token key atrule">static_configs</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">targets</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'prometheus:9090'</span><span class="token punctuation">]</span>
+        <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+          <span class="token key atrule">instance</span><span class="token punctuation">:</span> prometheus
+
+  <span class="token comment"># 采集node exporter监控数据，即linux</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">job_name</span><span class="token punctuation">:</span> linux
+    <span class="token key atrule">static_configs</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">targets</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'node-exporter:9100'</span><span class="token punctuation">]</span>
+        <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+          <span class="token key atrule">instance</span><span class="token punctuation">:</span> localhost
+</code></pre></div><p>docker-compose-prometheus.yml</p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">&quot;3&quot;</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+  <span class="token key atrule">prometheus</span><span class="token punctuation">:</span>
+    <span class="token key atrule">ipam</span><span class="token punctuation">:</span>
+      <span class="token key atrule">driver</span><span class="token punctuation">:</span> default
+      <span class="token key atrule">config</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">subnet</span><span class="token punctuation">:</span> <span class="token string">&quot;172.21.0.0/24&quot;</span>
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+  <span class="token key atrule">prometheus</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> prom/prometheus<span class="token punctuation">:</span>v2.34.0
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> prometheus
+    <span class="token key atrule">restart</span><span class="token punctuation">:</span> unless<span class="token punctuation">-</span>stopped
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> ./prometheus/prometheus.yml<span class="token punctuation">:</span>/etc/prometheus/prometheus.yml
+    <span class="token key atrule">command</span><span class="token punctuation">:</span> <span class="token string">&quot;--config.file=/etc/prometheus/prometheus.yml --storage.tsdb.path=/prometheus&quot;</span>
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;9090:9090&quot;</span>
+    <span class="token key atrule">depends_on</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> node<span class="token punctuation">-</span>exporter
+    <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+      <span class="token key atrule">prometheus</span><span class="token punctuation">:</span>
+        <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.21.0.11
+
+  <span class="token comment"># 采集服务器层面的运行指标</span>
+  <span class="token key atrule">node-exporter</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> prom/node<span class="token punctuation">-</span>exporter<span class="token punctuation">:</span>v1.3.1
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> prometheus<span class="token punctuation">-</span>node<span class="token punctuation">-</span>exporter
+    <span class="token key atrule">restart</span><span class="token punctuation">:</span> unless<span class="token punctuation">-</span>stopped
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;9100:9100&quot;</span>
+    <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+      <span class="token key atrule">prometheus</span><span class="token punctuation">:</span>
+        <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.21.0.22
+  <span class="token key atrule">grafana</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> grafana/grafana<span class="token punctuation">:</span>8.0.0
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> prometheus<span class="token punctuation">-</span>grafana
+    <span class="token key atrule">restart</span><span class="token punctuation">:</span> unless<span class="token punctuation">-</span>stopped
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;3000:3000&quot;</span>
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+<span class="token comment">#     - &quot;./prometheus/grafana/grafana.ini:/etc/grafana/grafana.ini&quot; # 邮箱配置</span>
+<span class="token comment">#      - &quot;./prometheus/grafana/grafana-storage:/var/lib/grafana&quot;</span>
+<span class="token comment">#      - &quot;./prometheus/grafana/public:/usr/share/grafana/public&quot; # 这里面可处理汉化包 可参考 https://github.com/WangHL0927/grafana-chinese</span>
+<span class="token comment">#      - &quot;./prometheus/grafana/conf:/usr/share/grafana/conf&quot;</span>
+<span class="token comment">#      - &quot;./prometheus/grafana/log:/var/log/grafana&quot;</span>
+<span class="token comment">#      - &quot;/etc/localtime:/etc/localtime&quot;</span>
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token key atrule">GF_EXPLORE_ENABLED</span><span class="token punctuation">:</span> <span class="token string">&quot;true&quot;</span>
+      <span class="token key atrule">GF_SECURITY_ADMIN_PASSWORD</span><span class="token punctuation">:</span> <span class="token string">&quot;admin&quot;</span>
+      <span class="token comment"># 如果报插件下载失败，可以它注释掉</span>
+      <span class="token key atrule">GF_INSTALL_PLUGINS</span><span class="token punctuation">:</span> <span class="token string">&quot;grafana-clock-panel,grafana-simple-json-datasource,alexanderzobnin-zabbix-app&quot;</span>
+    <span class="token key atrule">depends_on</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> prometheus
+    <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+      <span class="token key atrule">prometheus</span><span class="token punctuation">:</span>
+        <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.21.0.33
+</code></pre></div><p>run_pormetheus.sh</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token shebang important">#!/bin/bash</span>
+<span class="token builtin class-name">read</span> <span class="token parameter variable">-p</span> <span class="token string">&quot;请输入:
+1:启动Prometheus:  
+0:关闭Prometheus:
+&quot;</span> input
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> <span class="token variable">$input</span> <span class="token parameter variable">-eq</span> <span class="token number">1</span> <span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> docker-compose-prometheus.yml <span class="token parameter variable">-p</span> <span class="token builtin class-name">local</span> up <span class="token parameter variable">-d</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;已启动 Prometheus。&quot;</span>
+<span class="token keyword">elif</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> <span class="token variable">$input</span> <span class="token parameter variable">-eq</span> <span class="token number">0</span> <span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token function">docker-compose</span> <span class="token parameter variable">-f</span> docker-compose-prometheus.yml <span class="token parameter variable">-p</span> <span class="token builtin class-name">local</span> down
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;已关闭 Prometheus。&quot;</span>
+<span class="token keyword">else</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;输入无效。请输入 1 启动或 0 关闭。&quot;</span>
+<span class="token keyword">fi</span>
+</code></pre></div><h3 id="vue开发环境"><a href="#vue开发环境" class="header-anchor">#</a> Vue开发环境</h3> <ol><li>构建dockerFile生成镜像</li></ol> <div class="language-yml extra-class"><pre class="language-yml"><code>FROM node<span class="token punctuation">:</span>19.1.0<span class="token punctuation">-</span>buster
+MAINTAINER wenqin.Yang
+ENV DEBCONF_NOWARNINGS yes
+RUN true \
+    <span class="token comment"># debian china mirrors</span>
+    <span class="token important">&amp;&amp;</span> sed <span class="token punctuation">-</span>i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list \
+    <span class="token important">&amp;&amp;</span> sed <span class="token punctuation">-</span>i 's/security.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list \
+    <span class="token comment"># timezone to china</span>
+    <span class="token important">&amp;&amp;</span> ln <span class="token punctuation">-</span>sf /usr/share/zoneinfo/PRC /etc/localtime
+
+RUN apt<span class="token punctuation">-</span>get update <span class="token punctuation">-</span>y <span class="token important">&amp;&amp;</span> \
+    apt<span class="token punctuation">-</span>get upgrade <span class="token punctuation">-</span>y <span class="token important">&amp;&amp;</span> \
+    apt<span class="token punctuation">-</span>get install <span class="token punctuation">-</span>y \
+        git \
+        vim \
+    <span class="token important">&amp;&amp;</span> rm <span class="token punctuation">-</span>rf /var/lib/apt/lists/*
+
+RUN true \
+    <span class="token important">&amp;&amp;</span> npm config set registry https<span class="token punctuation">:</span>//registry.npm.taobao.org \
+    <span class="token important">&amp;&amp;</span> npm install webpack <span class="token punctuation">-</span>g \  
+    <span class="token important">&amp;&amp;</span> npm install <span class="token punctuation">-</span>g @vue/cli@5.0.8
+
+RUN mkdir /workspace
+WORKDIR /workspace
+RUN chmod +x /workspace
+VOLUME /workspace
+EXPOSE 8080
+</code></pre></div><ol start="2"><li>使用镜像(文件命名为：docker-compose.a.yml)</li></ol> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">'3'</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+    <span class="token key atrule">commonD</span><span class="token punctuation">:</span>
+        <span class="token key atrule">driver</span><span class="token punctuation">:</span> bridge
+        <span class="token key atrule">ipam</span><span class="token punctuation">:</span>
+            <span class="token key atrule">driver</span><span class="token punctuation">:</span> default
+            <span class="token key atrule">config</span><span class="token punctuation">:</span>
+                <span class="token punctuation">-</span> <span class="token key atrule">subnet</span><span class="token punctuation">:</span> 172.101.104.0/24
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+    <span class="token key atrule">dev</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> vue3env<span class="token punctuation">:</span>cli5.0.8
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_vue
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+          <span class="token punctuation">-</span> <span class="token string">&quot;80:80&quot;</span>
+          <span class="token punctuation">-</span> <span class="token string">&quot;3000:3000&quot;</span>
+          <span class="token punctuation">-</span> <span class="token string">&quot;18080:18080&quot;</span>
+          <span class="token punctuation">-</span> <span class="token string">&quot;28080:28080&quot;</span>
+        <span class="token key atrule">restart</span><span class="token punctuation">:</span> always
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span> 
+          <span class="token punctuation">-</span> ~/Vue/devProjects<span class="token punctuation">:</span>/workspace
+        <span class="token key atrule">stdin_open</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+        <span class="token key atrule">tty</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">commonD</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.104.101
+</code></pre></div><h2 id="集群"><a href="#集群" class="header-anchor">#</a> 集群</h2> <p>以下yml需要使用docker-compose up -d 启动，没有集成到一键启动中。其中elasticSearch集群启动的时候如果发现启动失败，需要更新docker到最新版本。</p> <h3 id="elasticsearch"><a href="#elasticsearch" class="header-anchor">#</a> ElasticSearch</h3> <p>ElasticSearch集群，一主三从，客户端cerebro和kibana。</p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">'3.5'</span>
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+  <span class="token key atrule">cerebro</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> chanmufeng/cerebro<span class="token punctuation">:</span>0.9.4
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> loal_cerebro
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;9000:9000&quot;</span>
+    <span class="token key atrule">command</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token punctuation">-</span>Dhosts.0.host=http<span class="token punctuation">:</span>//es01<span class="token punctuation">:</span><span class="token number">9201</span>
+    <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> esnet
+  <span class="token key atrule">kibana</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> kibana<span class="token punctuation">:</span>7.14.1
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> loal_kibana
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> ELASTICSEARCH_HOSTS=http<span class="token punctuation">:</span>//es01<span class="token punctuation">:</span><span class="token number">9201</span>
+      <span class="token comment"># 需要将Kibana配置文件中的小写转换成大写，然后这个才能用于变量，才能被设置到</span>
+      <span class="token punctuation">-</span> I18N_LOCALE=zh<span class="token punctuation">-</span>CN
+      <span class="token punctuation">-</span> xpack.monitoring.ui.container.elasticsearch.enabled=false
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> 5601<span class="token punctuation">:</span><span class="token number">5601</span>
+    <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> esnet
+  <span class="token key atrule">es00</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> elasticsearch<span class="token punctuation">:</span>7.14.1
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_elasticsearch00
+    <span class="token key atrule">restart</span><span class="token punctuation">:</span> always
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot;</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;ES_JAVA_OPTS=-Des.insecure.allow.root=true&quot;</span>
+    <span class="token key atrule">ulimits</span><span class="token punctuation">:</span>
+      <span class="token key atrule">memlock</span><span class="token punctuation">:</span>
+        <span class="token key atrule">soft</span><span class="token punctuation">:</span> <span class="token number">-1</span>
+        <span class="token key atrule">hard</span><span class="token punctuation">:</span> <span class="token number">-1</span>
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> ./elasticsearch/data/es00<span class="token punctuation">:</span>/usr/share/elasticsearch/data
+      <span class="token punctuation">-</span> ./elasticsearch/config/es00/elasticsearch.yml<span class="token punctuation">:</span>/usr/share/elasticsearch/config/elasticsearch.yml
+      <span class="token punctuation">-</span> ./elasticsearch/logs/es00<span class="token punctuation">:</span>/usr/share/elasticsearch/logs
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> 9200<span class="token punctuation">:</span><span class="token number">9200</span>
+      <span class="token punctuation">-</span> 9300<span class="token punctuation">:</span><span class="token number">9300</span>
+    <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> esnet
+  <span class="token key atrule">es01</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> elasticsearch<span class="token punctuation">:</span>7.14.1
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_elasticsearch01
+    <span class="token key atrule">restart</span><span class="token punctuation">:</span> always
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot;</span>
+    <span class="token key atrule">ulimits</span><span class="token punctuation">:</span>
+      <span class="token key atrule">memlock</span><span class="token punctuation">:</span>
+        <span class="token key atrule">soft</span><span class="token punctuation">:</span> <span class="token number">-1</span>
+        <span class="token key atrule">hard</span><span class="token punctuation">:</span> <span class="token number">-1</span>
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> ./elasticsearch/data/es01<span class="token punctuation">:</span>/usr/share/elasticsearch/data
+      <span class="token punctuation">-</span> ./elasticsearch/config/es01/elasticsearch.yml<span class="token punctuation">:</span>/usr/share/elasticsearch/config/elasticsearch.yml
+      <span class="token punctuation">-</span> ./elasticsearch/logs/es01<span class="token punctuation">:</span>/usr/share/elasticsearch/logs
+    <span class="token key atrule">depends_on</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> es00
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> 9201<span class="token punctuation">:</span><span class="token number">9201</span>
+      <span class="token punctuation">-</span> 9301<span class="token punctuation">:</span><span class="token number">9301</span>
+    <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> esnet
+  <span class="token key atrule">es02</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> elasticsearch<span class="token punctuation">:</span>7.14.1
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_elasticsearch02
+    <span class="token key atrule">restart</span><span class="token punctuation">:</span> always
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> ES_JAVA_OPTS=<span class="token punctuation">-</span>Xms512m <span class="token punctuation">-</span>Xmx512m
+    <span class="token key atrule">ulimits</span><span class="token punctuation">:</span>
+      <span class="token key atrule">memlock</span><span class="token punctuation">:</span>
+        <span class="token key atrule">soft</span><span class="token punctuation">:</span> <span class="token number">-1</span>
+        <span class="token key atrule">hard</span><span class="token punctuation">:</span> <span class="token number">-1</span>
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> ./elasticsearch/data/es02<span class="token punctuation">:</span>/usr/share/elasticsearch/data
+      <span class="token punctuation">-</span> ./elasticsearch/config/es02/elasticsearch.yml<span class="token punctuation">:</span>/usr/share/elasticsearch/config/elasticsearch.yml
+      <span class="token punctuation">-</span> ./elasticsearch/logs/es02<span class="token punctuation">:</span>/usr/share/elasticsearch/logs
+    <span class="token key atrule">depends_on</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> es00
+    <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> esnet
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> 9202<span class="token punctuation">:</span><span class="token number">9202</span>
+      <span class="token punctuation">-</span> 9302<span class="token punctuation">:</span><span class="token number">9302</span>
+  <span class="token key atrule">es03</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> elasticsearch<span class="token punctuation">:</span>7.14.1
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_elasticsearch03
+    <span class="token key atrule">restart</span><span class="token punctuation">:</span> always
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot;</span>
+    <span class="token key atrule">ulimits</span><span class="token punctuation">:</span>
+      <span class="token key atrule">memlock</span><span class="token punctuation">:</span>
+        <span class="token key atrule">soft</span><span class="token punctuation">:</span> <span class="token number">-1</span>
+        <span class="token key atrule">hard</span><span class="token punctuation">:</span> <span class="token number">-1</span>
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> ./elasticsearch/data/es03<span class="token punctuation">:</span>/usr/share/elasticsearch/data
+      <span class="token punctuation">-</span> ./elasticsearch/config/es03/elasticsearch.yml<span class="token punctuation">:</span>/usr/share/elasticsearch/config/elasticsearch.yml
+      <span class="token punctuation">-</span> ./elasticsearch/logs/es03<span class="token punctuation">:</span>/usr/share/elasticsearch/logs
+    <span class="token key atrule">depends_on</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> es00
+    <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> esnet
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> 9203<span class="token punctuation">:</span><span class="token number">9203</span>
+      <span class="token punctuation">-</span> 9303<span class="token punctuation">:</span><span class="token number">9303</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+  <span class="token key atrule">esnet</span><span class="token punctuation">:</span>
+</code></pre></div><h3 id="mysql-arm-2"><a href="#mysql-arm-2" class="header-anchor">#</a> Mysql(arm)</h3> <p>启动多个Mysql，注意这里的Mysql不是集群，只是没有关系的两个Mysql而已。</p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">&quot;3.5&quot;</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+  <span class="token key atrule">common</span><span class="token punctuation">:</span>
+    <span class="token key atrule">driver</span><span class="token punctuation">:</span> bridge
+    <span class="token key atrule">ipam</span><span class="token punctuation">:</span>
+      <span class="token key atrule">driver</span><span class="token punctuation">:</span> default
+      <span class="token key atrule">config</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">subnet</span><span class="token punctuation">:</span> 172.101.101.0/24
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+    <span class="token key atrule">mysql-01</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> mysql<span class="token punctuation">:</span>oracle
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> mysql<span class="token punctuation">-</span><span class="token number">01</span>
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>      
+            <span class="token punctuation">-</span> 3306<span class="token punctuation">:</span><span class="token number">3306</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./mysql/mysql-01/data:/var/lib/mysql&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">common</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.121
+        <span class="token key atrule">command</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span><span class="token punctuation">-</span>default<span class="token punctuation">-</span>authentication<span class="token punctuation">-</span>plugin=mysql_native_password
+        <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> MYSQL_ROOT_PASSWORD=123456
+            <span class="token comment">#- MYSQL_DATABASE=wenqin_locale</span>
+    <span class="token key atrule">mysql-02</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> mysql<span class="token punctuation">:</span>oracle
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> mysql<span class="token punctuation">-</span><span class="token number">02</span>
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>      
+            <span class="token punctuation">-</span> 13306<span class="token punctuation">:</span><span class="token number">3306</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./mysql/mysql-02/data:/var/lib/mysql&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">common</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.122
+        <span class="token key atrule">command</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span><span class="token punctuation">-</span>default<span class="token punctuation">-</span>authentication<span class="token punctuation">-</span>plugin=mysql_native_password
+        <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> MYSQL_ROOT_PASSWORD=123456
+            <span class="token comment">#- MYSQL_DATABASE=wenqin_locale</span>
+</code></pre></div><h3 id="mysql-2"><a href="#mysql-2" class="header-anchor">#</a> Mysql</h3> <p>启动多个Mysql，注意这里的Mysql不是集群，只是没有关系的两个Mysql而已。</p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">&quot;3.5&quot;</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+  <span class="token key atrule">common</span><span class="token punctuation">:</span>
+    <span class="token key atrule">driver</span><span class="token punctuation">:</span> bridge
+    <span class="token key atrule">ipam</span><span class="token punctuation">:</span>
+      <span class="token key atrule">driver</span><span class="token punctuation">:</span> default
+      <span class="token key atrule">config</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">subnet</span><span class="token punctuation">:</span> 172.101.101.0/24
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+    <span class="token key atrule">mysql-01</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> mysql<span class="token punctuation">:</span><span class="token number">8.0</span>
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> mysql<span class="token punctuation">-</span><span class="token number">01</span>
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>      
+            <span class="token punctuation">-</span> 3306<span class="token punctuation">:</span><span class="token number">3306</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./mysql-01/data:/var/lib/mysql&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">common</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.121
+        <span class="token key atrule">command</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span><span class="token punctuation">-</span>default<span class="token punctuation">-</span>authentication<span class="token punctuation">-</span>plugin=mysql_native_password
+        <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> MYSQL_ROOT_PASSWORD=123456
+            <span class="token comment">#- MYSQL_DATABASE=wenqin_locale</span>
+    <span class="token key atrule">mysql-02</span><span class="token punctuation">:</span>
+        <span class="token key atrule">image</span><span class="token punctuation">:</span> mysql<span class="token punctuation">:</span><span class="token number">8.0</span>
+        <span class="token key atrule">container_name</span><span class="token punctuation">:</span> mysql<span class="token punctuation">-</span><span class="token number">02</span>
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>      
+            <span class="token punctuation">-</span> 13306<span class="token punctuation">:</span><span class="token number">3306</span>
+        <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&quot;./mysql-02/data:/var/lib/mysql&quot;</span>
+        <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+            <span class="token key atrule">common</span><span class="token punctuation">:</span>
+                <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.122
+        <span class="token key atrule">command</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span><span class="token punctuation">-</span>default<span class="token punctuation">-</span>authentication<span class="token punctuation">-</span>plugin=mysql_native_password
+        <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> MYSQL_ROOT_PASSWORD=123456
+            <span class="token comment">#- MYSQL_DATABASE=wenqin_locale</span>
+</code></pre></div><h3 id="zookeeper-2"><a href="#zookeeper-2" class="header-anchor">#</a> Zookeeper</h3> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token string">'3'</span>
+<span class="token key atrule">networks</span><span class="token punctuation">:</span>
+  <span class="token key atrule">common</span><span class="token punctuation">:</span>
+    <span class="token key atrule">driver</span><span class="token punctuation">:</span> bridge
+    <span class="token key atrule">ipam</span><span class="token punctuation">:</span>
+      <span class="token key atrule">driver</span><span class="token punctuation">:</span> default
+      <span class="token key atrule">config</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">subnet</span><span class="token punctuation">:</span> 172.101.101.0/24
+<span class="token key atrule">services</span><span class="token punctuation">:</span>
+  <span class="token key atrule">zoo1</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> <span class="token string">'zookeeper:3.6.3'</span>
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_zoo1
+    <span class="token key atrule">hostname</span><span class="token punctuation">:</span> zoo1
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;./zookeepers/zoo1/data:/data&quot;</span>
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token key atrule">ZOO_MY_ID</span><span class="token punctuation">:</span> <span class="token number">1</span>
+      <span class="token key atrule">ZOO_SERVERS</span><span class="token punctuation">:</span> server.1=0.0.0.0<span class="token punctuation">:</span>2888<span class="token punctuation">:</span>3888;2181 server.2=zoo2<span class="token punctuation">:</span>2888<span class="token punctuation">:</span>3888;2181 server.3=zoo3<span class="token punctuation">:</span>2888<span class="token punctuation">:</span>3888;2181
+      <span class="token key atrule">ALLOW_ANONYMOUS_LOGIN</span><span class="token punctuation">:</span> <span class="token string">&quot;yes&quot;</span>
+    <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+      <span class="token key atrule">common</span><span class="token punctuation">:</span>
+        <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.115
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> 2181<span class="token punctuation">:</span><span class="token number">2181</span>
+      <span class="token punctuation">-</span> 8081<span class="token punctuation">:</span><span class="token number">8080</span>
+  <span class="token key atrule">zoo2</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> <span class="token string">'zookeeper:3.6.3'</span>
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_zoo2
+    <span class="token key atrule">hostname</span><span class="token punctuation">:</span> zoo2
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;./zookeepers/zoo2/data:/data&quot;</span>
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token key atrule">ZOO_MY_ID</span><span class="token punctuation">:</span> <span class="token number">2</span>
+      <span class="token key atrule">ZOO_SERVERS</span><span class="token punctuation">:</span> server.1=zoo1<span class="token punctuation">:</span>2888<span class="token punctuation">:</span>3888;2181 server.2=0.0.0.0<span class="token punctuation">:</span>2888<span class="token punctuation">:</span>3888;2181 server.3=zoo3<span class="token punctuation">:</span>2888<span class="token punctuation">:</span>3888;2181
+      <span class="token key atrule">ALLOW_ANONYMOUS_LOGIN</span><span class="token punctuation">:</span> <span class="token string">&quot;yes&quot;</span>
+    <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+      <span class="token key atrule">common</span><span class="token punctuation">:</span>
+        <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.116
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> 2182<span class="token punctuation">:</span><span class="token number">2181</span>
+      <span class="token punctuation">-</span> 8082<span class="token punctuation">:</span><span class="token number">8080</span>
+  <span class="token key atrule">zoo3</span><span class="token punctuation">:</span>
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> <span class="token string">'zookeeper:3.6.3'</span>
+    <span class="token key atrule">container_name</span><span class="token punctuation">:</span> local_zoo3
+    <span class="token key atrule">hostname</span><span class="token punctuation">:</span> zoo3
+    <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;./zookeepers/zoo3/data:/data&quot;</span>
+    <span class="token key atrule">environment</span><span class="token punctuation">:</span>
+      <span class="token key atrule">ZOO_MY_ID</span><span class="token punctuation">:</span> <span class="token number">3</span>
+      <span class="token key atrule">ZOO_SERVERS</span><span class="token punctuation">:</span> server.1=zoo1<span class="token punctuation">:</span>2888<span class="token punctuation">:</span>3888;2181 server.2=zoo2<span class="token punctuation">:</span>2888<span class="token punctuation">:</span>3888;2181 server.3=0.0.0.0<span class="token punctuation">:</span>2888<span class="token punctuation">:</span>3888;2181
+      <span class="token key atrule">ALLOW_ANONYMOUS_LOGIN</span><span class="token punctuation">:</span> <span class="token string">&quot;yes&quot;</span>
+    <span class="token key atrule">networks</span><span class="token punctuation">:</span>
+      <span class="token key atrule">common</span><span class="token punctuation">:</span>
+        <span class="token key atrule">ipv4_address</span><span class="token punctuation">:</span> 172.101.101.117
+    <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> 2183<span class="token punctuation">:</span><span class="token number">2181</span>
+      <span class="token punctuation">-</span> 8083<span class="token punctuation">:</span><span class="token number">8080</span>
+
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><div></div></div></div>
+    <script src="/assets/js/app.89e812d7.js" defer></script><script src="/assets/js/3.44254d01.js" defer></script><script src="/assets/js/10.65f075ff.js" defer></script>
+  </body>
+</html>
